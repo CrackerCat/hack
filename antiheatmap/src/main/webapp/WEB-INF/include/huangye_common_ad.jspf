@@ -1,0 +1,11 @@
+<li data-adtype="2" class="singleslot">
+	<a class="huangye_list_demo_a " href="#"> 
+		<img class="list-img" data-url="#" src="/antiheatmap/img/heatmap/invalid_pic.jpg" />
+			<dl>
+				<dt class="huangye-title">黄页   M端   热力图   广告标题 占两行 </dt>
+				<dd class="attr-demo list-details">公司区域-公司名称</dd>
+				<span class="list-vip-sign">会员</span>
+			</dl>
+    </a>
+    <a class="huangye_list_demo_phone"></a>
+</li>

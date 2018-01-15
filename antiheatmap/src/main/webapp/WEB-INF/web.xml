@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
+  <description>
+      58-antifraud-heatmap.
+    </description>
+  <display-name>58-antifraud-heatmap</display-name>
+  <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.bj58.data.antifraud.heatmap.web.servlet.Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>heatmapServlet</servlet-name>
+    <servlet-class>com.bj58.data.antifraud.heatmap.web.servlet.HeatmapController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>heatmapServlet</servlet-name>
+    <url-pattern>/heatmap</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>heatmapDataQueryServlet</servlet-name>
+    <servlet-class>com.bj58.data.antifraud.heatmap.web.servlet.DataQueryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>heatmapDataQueryServlet</servlet-name>
+    <url-pattern>/heatmap/dataquery</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.xhtml</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <jsp-config>
+	<jsp-property-group>
+	<url-pattern>*.jsp</url-pattern>
+	<page-encoding>UTF-8</page-encoding>
+	</jsp-property-group>
+  </jsp-config>
+</web-app>

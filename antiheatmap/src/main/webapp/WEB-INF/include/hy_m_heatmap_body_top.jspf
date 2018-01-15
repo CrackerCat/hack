@@ -1,0 +1,27 @@
+<div id="list_bg"></div>
+<div class="top" id="top">
+	<div class="lunaSearch">
+		<a href="//luna.58.com/m/autotemplate?city=bj&amp;temname=juhe_common" class="logo"> <img
+			src="http://img.58cdn.com.cn/crop/biz/m/lunaHome/pic/img/logo.png" alt="">
+		</a>
+		<div class="searchTxtarea">
+			<a
+				href="//luna.58.com/city.shtml?-15=20&amp;plat=m&amp;url=http%3A%2F%2Fluna.58.com%2Flist.shtml%3F%26plat%3Dm%26cate%3Dbaomu%26PGTID%3D0d200000-0000-1732-ddeb-d3c8c11ec6af%26-15%3D20%26tag%3Djuhe_common_fifthjiazheng_baomu%26ClickID%3D1%26city%3D__CITY__"
+				class="city"> <i>北京</i>
+			</a> <span>
+				<form>
+					<input type="text" class="searchArea" disabled="disabled" placeholder="找工作 找房子 找搬家">
+				</form>
+			</span>
+		</div>
+	</div>
+	<div class="filter">
+		<ul class="filter_title">
+			<li><span>区域</span></li>
+			<li><span>类别</span></li>
+		</ul>
+		<div class="filterContainer">
+			<div class="filterBox"></div>
+		</div>
+	</div>
+</div>
